@@ -1,0 +1,50 @@
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-image:linear-gradient(rgba(48, 48, 49, 0.596),rgba(0,0,0,0.7)), url('../images/shoutengai/yoru.jpeg');
+}
+
+.container-1{
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container-1 div{
+    border:1px rgb(99, 99, 102) solid;
+    padding:10px;
+    background-color:rgba(14, 27, 47, 0.5);
+    width: 80%;
+  }
+
+  .control
+  {
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom:2cm;
+  }
+
+
+  h3
+  {
+      font-size: 40px;
+      
+  }
+
+p{
+    padding-top: 1cm;
+}
+
+h1
+{
+    font-size:90px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

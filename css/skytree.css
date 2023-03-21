@@ -1,0 +1,30 @@
+h1
+{
+    font-size:90px;
+    text-align: center;
+    color: white;
+}
+
+p
+{
+ color: rgb(136, 182, 226);
+ font-size:20px;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background-image:linear-gradient(rgba(48, 48, 49, 0.596),rgba(0,0,0,0.7)), url('../images/skytree/skyback.jpeg');
+}
+
+.control
+{
+    width: 80%;
+    margin-left:16%;
+}
+
+figure img#try
+{
+    margin-right:20px;
+    margin-bottom:20px;
+}

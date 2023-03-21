@@ -1,0 +1,60 @@
+.beppuintroduction
+{
+    width: 80%;
+    padding-left: 10%;
+    margin-top: 1cm;    
+}
+
+
+.beppuintroduction h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom:5%;
+    font-size: 35px;    
+}
+
+.umijigoku {
+    height: 250px;
+    margin-bottom:30px;
+    position: relative;
+}
+
+.umijigoku h2 {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+  }
+
+#pic1 
+{
+    padding-left:2%;
+}
+
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:25px;
+    padding-bottom: 200px;
+}
+
+.forimage
+{
+    position: relative;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+
+.forimage h2 {
+    display: inline;
+    position: absolute;
+    top: 30%;
+    right:2%;
+}
+
+#pic2{
+    position: absolute;
+    left:2%;
+}
+

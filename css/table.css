@@ -1,0 +1,85 @@
+figure img#work
+{
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+
+.outline
+{
+    width: 90%;
+    padding-left: 10%;
+    margin-top: 1cm;
+}
+
+
+.control
+{
+    padding-left:18%;
+    padding-top:2%;
+    
+}
+
+p
+{
+    font-size: 20px;
+    width: 90%;
+}
+
+
+table.chart{
+    background: white;
+    border: 10px outset rgb(72, 54, 173);
+    border-collapse: collapse;
+    font-size: 0.75em;
+    width: 75%;
+}
+
+
+/* Table Cell Styles */
+
+table.chart th, table.chart td{
+    border: 1px solid gray;
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Table Caption Styles */
+table.chart caption{
+    caption-side: bottom;
+    text-align: right;
+}
+
+
+/* Row Group Styles */
+table.chart thread{
+    background: rgb(0, 79, 153);
+    color: white;
+}
+
+table.chart tfoot{
+    background: black;
+    color: white;
+}
+
+table.chart thread tr{
+    height: 30px;
+
+}
+
+table.chart tbody tr{
+    height: 40px;
+}
+/* Column Group Styles */
+
+col#firstCol{
+    background: rgb(143, 152, 229);
+    width: 16%;
+}
+
+col.columns{
+    background: rgb(164, 205, 238);
+    width: 12%;
+}

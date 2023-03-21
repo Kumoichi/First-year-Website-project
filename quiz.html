@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<meta charset="UTF-8" id="HTML5tags">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Shane Steiner">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="script.js"></script>
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/mobile.css" rel="stylesheet" />
+  <script src="mobile.js"></script>
+  <link href="css/contents.css" rel="stylesheet" />
+  <link href="css/reset.css" rel="stylesheet" />
+
+</head>
+<div class="navbar" id="FloatRequirement">
+    <ul>
+        <li><a href="homepage.html" id="anchorRequirement">Home</a></li>
+        <li><a href="beppu.html">Beppu-Onsen</a></li>
+        <li><a href="kiyomizudera.html">Kiyomizu-dera</a></li>
+        <li><a href="mtfuji.html">Mount Fuji</a></li>
+        <li><a href="akihabara.html">Akihabara</a></li>
+        <li><a href="skytree.html">Tokyo Sky Tree</a></li>
+        <li><a href="shoutengai.html">Shoutengai</a></li>
+        <li style="float:right"><a href="quiz.html">quiz</a></li>
+    </ul>
+</div>
+
+<!-- mobile nav-->
+<div class="mobileNavbar">
+  <a onclick="displayMobileNav()">
+      <h1>Menu</h1>
+  </a>
+  <ul class="mobileItems" id="mobileItemsID">
+      <li><a href="homepage.html" id="anchorRequirement">Home</a></li>
+      <li><a href="beppu.html">Beppu-Onsen</a></li>
+      <li><a href="kiyomizudera.html">Kiyomizu-dera</a></li>
+      <li><a href="mtfuji.html">Mount Fuji</a></li>
+      <li><a href="akihabara.html">Akihabara</a></li>
+      <li><a href="skytree.html">Tokyo Sky Tree</a></li>
+      <li><a href="shoutengai.html">Shoutengai</a></li>
+      <li style="float:right"><a href="quiz.html">quiz</a></li>
+  </ul>
+</div>
+
+
+<body>
+<div class="quizzes-container">
+  <h1>Quiz!!</h1>
+  <div class="quiz-container">
+    <h2>Question 1</h2>
+    <div>
+      <p>Where is the anime center</p>
+    </div>
+    <form id="quiz-1">
+      <input name="answer" type="radio" value="a">Beppu-Onsen</input>
+      <input name="answer" type="radio" value="b">Akihabara</input>
+      <input name="answer" type="radio" value="c">Kiyomizudera</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz1();">input answer</button>
+  </div>
+  <div class="quiz-container">
+    <h2>Question 2</h2>
+    <div>
+      <p>Which one has the red hot spring</p>
+    </div>
+    <form id="quiz-2">
+      <input name="answer" type="radio" value="a">Chinoike-jigoku</input>
+      <input  name="answer" type="radio" value="b">Umi-jigoku</input>
+      <input name="answer" type="radio" value="c">Maid-cafe</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz2();">input answer</button>
+  </div>
+  <div class="quiz-container">
+    <h2>Question 3</h2>
+    <div>
+      <p>Which is the heightest mountain in Japan</p>
+    </div>
+    <form id="quiz-3">
+      <input name="answer" type="radio" value="a">Tenjinbashi-shoutenngai</input>
+      <input name="answer" type="radio" value="b">Kiyomizu-dera</input>
+      <input name="answer" type="radio" value="c">Mount Fuji</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz3();">input answer</button>  
+  </div>
+  <div id="score-container">
+    <p id="score-message"></p>
+  </div>
+  <button class="btn-score" type="button" onclick="showScore();">check your score</button>
+</div>
+
+</body>

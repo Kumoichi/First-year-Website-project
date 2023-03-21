@@ -1,0 +1,37 @@
+.control
+{
+    width: 80%;
+    padding-left: 10%;
+    margin-top: 1cm; 
+    
+}
+
+#figure1 img
+{
+    border-radius:30px;
+    width:40%;
+    margin: 20px;
+    color: white;
+    box-shadow: 6px 6px 8px #000000;
+    float:right
+}
+
+figure h2
+{
+    padding-top:30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#figure2 img
+{
+    padding-top:20px;
+    padding-left:85px;
+    width:80%;
+}
+
+p
+{
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+}
