@@ -2,17 +2,17 @@
 #Japanese Sightseeing Spots Website  
 This is a user-friendly UI Japanese Sightseeing Spots website that I built as part of a Web Design course project. The website features 8 different pages and a quiz attached with JavaScript.  
   
-##Features
+## Features
 Added a fade-in animation on the home page of the website.  
 Made a grid view expandable when you hover.  
 Each page is visually appealing.  
-##Installation  
+## Installation  
 To view the website, follow these steps:  
 
 Download the project files.  
 Open the homepage.html file.  
   
-##Demo  
+## Demo  
 Click the link below to watch a demo video of the website:  
   
 Japanese Sightseeing Spots Website Demo Video  
